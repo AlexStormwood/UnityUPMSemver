@@ -1,0 +1,19 @@
+{
+	"name": "unityupmsemver",
+	"version": "1.0.6",
+	"description": "An action for Github repositories hosting Unity UPM packages to update their semver numbers correctly & automatically.",
+	"main": "src/index.js",
+	"dependencies": {},
+	"devDependencies": {},
+	"scripts": {
+		"test": "jest"
+	},
+	"keywords": [
+		"unity",
+		"automation",
+		"packages",
+		"packaging"
+	],
+	"author": "AlexHolderDeveloper",
+	"license": "ISC"
+}

@@ -1,0 +1,20 @@
+name: 'Unity UPM Semver'
+description: 'Find and increment the Unity UPM package version number per semver rules.'
+branding:
+  icon: settings
+  color: blue
+inputs:
+  semver-update-type:  # id of input
+    description: 'Which number to increment based on semver rules. Default is "patch".'
+    required: true
+    default: 'patch'
+  upm-package-directory: # directory containing the package
+    description: 'The directory containing the UPM files. Useful for Unity projects that use subfolders to contain their UPM packages in a single project or repository. Default is repository root.'
+    required: true
+    default: './'
+outputs:
+  semver-number: # id of output
+    description: 'The new semver number of this Unity UPM package.'
+runs:
+  using: 'node12'
+  main: 'src/index.js'
