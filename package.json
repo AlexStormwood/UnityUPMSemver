@@ -1,6 +1,6 @@
 {
 	"name": "unityupmsemver",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "An action for Github repositories hosting Unity UPM packages to update their semver numbers correctly & automatically.",
 	"main": "src/index.js",
 	"dependencies": {},
